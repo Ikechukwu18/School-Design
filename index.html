@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section id="banner">
+        <img src="img src="pics/gradpic.jpg" alt=""  class="logo">
+        <div class="banner-text">
+          <h1>IGORITHM COLLEGE  </h1>
+          <p>motto: Not to equal but to Excel</p>
+          <br> 
+          <div class="banner-btn">
+              <a href="login.html"><span></span>Log In </a>
+              <a href="signup.html"><span></span>Sign Up </a>
+            </div>
+        </div>
+      </section>
+      <div id="sideNav">
+          <nav >
+              <ul  class="navlinks" >
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Course</a></li>
+                  <li><a href="#">Blog</a></li>
+              </ul>
+          </nav>
+      </div>
+      <div id="menuBtn">
+        <img src="pics/menubtn.png" id="menu">
+     </div>
+
+    <article class="course_article">
+        <h4>Courses We Offer</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </article>
+
+    <section class="course_sec">
+
+        <div>
+            <h5>Intermediate</h5>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime libero eum minus quo laborum aliquam ut
+                corporis eveniet possimus repudiandae pariatur architecto veritatis quia, corrupti mollitia! At ducimus
+                quia voluptatibus.
+            </p>
+        </div>
+
+        <div>
+            <h5>Degree</h5>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime libero eum minus quo laborum aliquam ut
+                corporis eveniet possimus repudiandae pariatur architecto veritatis quia, corrupti mollitia! At ducimus
+                quia voluptatibus.
+            </p>
+        </div>
+
+        <div>
+            <h5>Post Graduation</h5>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime libero eum minus quo laborum aliquam ut
+                corporis eveniet possimus repudiandae pariatur architecto veritatis quia, corrupti mollitia! At ducimus
+                quia voluptatibus.
+            </p>
+        </div>
+
+    </section>
+
+
+    <article class="fac_article">
+        <h4>Our Facilities</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </article>
+
+
+    <section class="fac_sec">
+
+
+        <main class="fac_sec1">
+            <div>
+                <img src="pics/pic1.jpg" alt="" height="350px" width="350px">
+                <h6>World Class Library</h6>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime libero eum minus quo laborum aliquam
+                    ut</p>
+            </div>
+
+            <div>
+                <img src="pics/pic2.jpg" alt="" height="350px" width="350px">
+                <h6>Largest Play Group</h6>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime libero eum minus quo laborum aliquam
+                    ut</p>
+            </div>
+
+            <div>
+                <img src="pics/pic3.jpg" alt="" height="350px" width="350px">
+                <h6>Tasty and Healthy Food</h6>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime libero eum minus quo laborum aliquam
+                    ut</p>
+            </div>
+        </main>
+    </section>
+
+    <article class="fac_sec2_article">
+        <h4>What Our Students Say</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+    </article>
+
+    <section class="fac_sec2">
+
+        <main class="fac_sec2_main">
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nihil obcaecati natus,
+                    laboriosam fugiat quas enim.</p>
+                <h6>Christen Birkley</h6>
+                <i class="ri-star-s-fill"></i>
+                <i class="ri-star-s-fill"></i>
+                <i class="ri-star-s-fill"></i>
+                <i class="ri-star-s-fill"></i>
+                <i class="ri-star-s-line"></i>
+            </div>
+
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nihil obcaecati natus,
+                    laboriosam fugiat quas enim.</p>
+                <h6>Danny Bryon</h6>
+                <i class="ri-star-s-fill"></i>
+                <i class="ri-star-s-fill"></i>
+                <i class="ri-star-s-fill"></i>
+                <i class="ri-star-s-fill"></i>
+                <i class="ri-star-half-line"></i>
+            </div>
+
+        </main>
+    </section>
+
+    <footer>
+        <div class="footer_mail">
+            <i class="ri-mail-send-line" style="color: white;"></i>
+            <a href="mailto:igorithmcollege@gmail.com">Send Mail</a>
+        </div>
+
+        <div>
+            <a href="#"><i class="ri-whatsapp-line" style="color: green;"></i></a>
+            <a href="#"><i class="ri-facebook-fill" style="color: blue;"></i></a>
+            <a href="#"><i class="ri-instagram-line" style="color: red;"></i></a>
+            <a href="#"><i class="ri-twitter-x-fill" style="color: black;"></i></a>
+        </div>
+
+        <div class="footer_copyright">
+            <p><i class="ri-copyright-line">2023</i></p>
+        </div>
+    </footer>
+
+</body>
+<script>
+    var menuBtn= document.getElementById("menuBtn")
+    var sideNav= document.getElementById("sideNav")
+    var menu= document.getElementById("menu")
+
+    sideNav.style.right = "-250px"
+
+    menuBtn.onclick =function(){
+    if(sideNav.style.right == "-250px"){
+        sideNav.style.right ="0"
+        menu.src = "pics/closebtn.png"
+    }
+    else{
+        sideNav.style.right ="-250px";
+        menu.src = "pics/menubtn.png"
+    }
+}
+</script>
+
+</html>
